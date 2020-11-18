@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { useState } from 'react';
+import * as React from 'react'
+import { useState } from 'react'
 
 function Hello() {
   const [name, setName] = useState('Mary')
@@ -14,7 +14,7 @@ function Hello() {
         set surname 
       </button>
     </div>
-  );
+  )
 }
 
 export default Hello
